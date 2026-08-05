@@ -12,7 +12,6 @@
 - 🎯 **兴趣**: DeVOps 自动化、云原生运维、Mac 效率工具
 - 🌱 **正在学习**: Android 开发、Flutter 跨平台方案
 - 📬 **联系**: WeChat: `dddpeter1314` | Email: `dddpeter@126.com`
-- 📖 **博客**: [https://blog.dddpeter.top](https://blog.dddpeter.top)
 
 ---
 
