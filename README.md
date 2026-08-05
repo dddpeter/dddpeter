@@ -21,7 +21,6 @@
 | 项目 | 简介 | 语言 |
 | :--- | :--- | :--- |
 | [SpeedScout](https://github.com/dddpeter/SpeedScout) | macOS 状态栏网速监控小工具 | Swift |
-| [LaunchNext](https://github.com/dddpeter/LaunchNext) | macOS Launchpad 风格启动器 | Swift |
 | [email-mcp](https://github.com/dddpeter/email-mcp) | AI 邮件托管 MCP 服务 | JavaScript |
 | [rainweather-flutter](https://github.com/dddpeter/rainweather-flutter) | Flutter 跨平台天气应用 | Dart |
 
