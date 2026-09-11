@@ -50,20 +50,20 @@
 - [Alle](https://github.com/dddpeter/Alle) — AI 识别的邮件聚合客户端（示例/实验性项目）
 - [email-mcp](https://github.com/dddpeter/email-mcp) — 基于 MCP 的邮件 AI 服务（支持 MCP-X, Claude 等客户端）
 
-更多仓库：<https://github.com/dddpeter?tab=repositories>
+更多仓库：https://github.com/dddpeter?tab=repositories
 
 ---
 
 ## 📊 活跃数据（本地托管，避免第三方失效）
 
+<!-- 三张卡片放在一行，宽度统一 -->
 <p align="center">
-  <img alt="dddpeter's GitHub Stats" src="./images/github-stats.svg" />
-  <img alt="Top Languages" src="./images/top-langs.svg" />
+  <img alt="dddpeter's GitHub Stats" src="./images/github-stats.svg" width="32%" style="max-width:300px; margin: 4px;" />
+  <img alt="Top Languages" src="./images/top-langs.svg" width="32%" style="max-width:300px; margin: 4px;" />
+  <img alt="GitHub Streak" src="./images/streak.svg" width="32%" style="max-width:300px; margin: 4px;" />
 </p>
 
-<p align="center">
-  <img alt="GitHub Streak" src="./images/streak.svg" />
-</p>
+<p align="center"><sub>注：图片为仓库托管的 SVG，占位或自动更新（如果启用 workflow）。如需我把这些 SVG 做成漂亮的并排卡片或添加阴影/圆角效果，我可以进一步美化。</sub></p>
 
 ---
 
