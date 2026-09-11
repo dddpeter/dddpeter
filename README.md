@@ -27,12 +27,12 @@
 ## 📊 活跃数据
 
 <p align="center">
-  <img alt="dddpeter's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=dddpeter&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dddpeter&layout=compact&theme=tokyonight&hide_border=true" />
+  <img alt="dddpeter's GitHub Stats" src="./images/github-stats.svg" />
+  <img alt="Top Languages" src="./images/top-langs.svg" />
 </p>
 
 <p align="center">
-  <img alt="GitHub Streak" src="https://github-readme-streak-stats.herokuapp.com/?user=dddpeter&theme=tokyonight" />
+  <img alt="GitHub Streak" src="./images/streak.svg" />
 </p>
 
 ---

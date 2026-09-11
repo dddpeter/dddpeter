@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="120" viewBox="0 0 860 120">
+  <rect width="100%" height="100%" rx="10" fill="#061122" />
+  <text x="24" y="36" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16" fill="#fff" font-weight="600">GitHub Streak</text>
+  <text x="24" y="66" font-size="13" fill="#9aa5b1">Current streak: — days • Longest: — days</text>
+</svg>
