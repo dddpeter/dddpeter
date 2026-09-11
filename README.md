@@ -42,10 +42,28 @@
 
 ## 精选项目
 
+下面为你精选了 5 个代表性项目（点击标题查看仓库）：
+
 - [SpeedScout](https://github.com/dddpeter/SpeedScout) — macOS 状态栏网速监控小工具（Swift）
 - [rainweather-flutter](https://github.com/dddpeter/rainweather-flutter) — Flutter 跨平台天气应用（Dart）
+- [BingPaper](https://github.com/dddpeter/BingPaper) — 使用必应每日壁纸作为 macOS 桌面背景的工具（Swift）
+- [Alle](https://github.com/dddpeter/Alle) — AI 识别的邮件聚合客户端（示例/实验性项目）
+- [email-mcp](https://github.com/dddpeter/email-mcp) — 基于 MCP 的邮件 AI 服务（支持 MCP-X, Claude 等客户端）
 
-更多仓库：https://github.com/dddpeter?tab=repositories
+更多仓库：<https://github.com/dddpeter?tab=repositories>
+
+---
+
+## 📊 活跃数据（本地托管，避免第三方失效）
+
+<p align="center">
+  <img alt="dddpeter's GitHub Stats" src="./images/github-stats.svg" />
+  <img alt="Top Languages" src="./images/top-langs.svg" />
+</p>
+
+<p align="center">
+  <img alt="GitHub Streak" src="./images/streak.svg" />
+</p>
 
 ---
 
@@ -65,5 +83,5 @@
 
 
 <footer align="center">
-  <p><sub>此 README 由模板美化，若需进一步定制（颜色、布局、图标、自动统计卡），告诉我你想要的风格或素材，我会继续优化并提交修改。</sub></p>
+  <p><sub>此 README 已按模板美化并保留本地统计卡片（images/ 下的 SVG）。如需我把统计改为自动更新（GitHub Action）或把精选项目替换为带预览的 pin 卡，请告诉我。</sub></p>
 </footer>
