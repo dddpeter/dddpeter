@@ -1,0 +1,38 @@
+name: Update Top 10 charts
+
+on:
+  schedule:
+    # 每天北京时间 00:37 左右（GitHub cron 为 UTC）
+    - cron: '37 16 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate charts
+        run: node scripts/generate-top10.mjs
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stars-top10.svg assets/stars-top10-dark.svg assets/commits-top10.svg assets/commits-top10-dark.svg
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore: refresh Star/Commit Top 10 charts"
+            git push
+          fi

@@ -104,6 +104,28 @@
 
 ---
 
+## GitHub 统计
+
+<div align="center">
+
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dddpeter&theme=default" alt="Profile Details"/>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stars-top10-dark.svg">
+    <img alt="Star Top 10 · 最近 42 天" src="assets/stars-top10.svg">
+  </picture>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/commits-top10-dark.svg">
+    <img alt="Commit Top 10 · 最近 42 天" src="assets/commits-top10.svg">
+  </picture>
+
+  <p><sub>📈 图表由 GitHub Actions 每日自动更新 · 数据来自 GitHub API（仅公开仓库）</sub></p>
+
+</div>
+
+---
+
 ## 微信公众号
 
 <div align="center">
