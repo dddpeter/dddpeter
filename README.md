@@ -9,6 +9,7 @@
     <a href="#技能与工具"><img src="https://img.shields.io/badge/技能-工具-2C9CDF?style=for-the-badge" alt="技能"/></a>
     <a href="#精选项目"><img src="https://img.shields.io/badge/项目-精选-00B894?style=for-the-badge" alt="项目"/></a>
     <a href="#联系我"><img src="https://img.shields.io/badge/联系-方式-A6CE39?style=for-the-badge" alt="联系"/></a>
+    <a href="#微信公众号"><img src="https://img.shields.io/badge/公众号-关注-F39C12?style=for-the-badge" alt="公众号"/></a>
   </p>
 
 </div>
@@ -103,12 +104,45 @@
 
 ---
 
+## 微信公众号
+
+<div align="center">
+
+  <img src="images/wechat-account-avatar.jpg" width="150" alt="烈焰之雨空间 头像"/>
+
+  ### 🔥 烈焰之雨空间 · 专注于技术干货的公众号 🌧️
+
+  *烈焰般的热忱钻研技术，细雨般的分享陪伴成长。*
+
+  这里持续输出真正用得上的技术内容，坚持原创、拒绝水文：
+
+  📚 **实战教程** —— 手把手从 0 到 1，代码可跑、拿来即用
+
+  💡 **技术干货** —— DevOps / 后端 / 移动端 / AI 工程化的深度实践
+
+  🔧 **踩坑实录** —— 真实项目里踩过的坑、填过的雷，帮你少走弯路
+
+  🚀 **效率神器** —— 值得一试的开发工具、开源项目与工作流
+
+  <p>
+    <img src="https://img.shields.io/badge/内容-技术干货-FF4E50?style=flat-square" alt="技术干货"/>
+    <img src="https://img.shields.io/badge/形式-实战教程-F39C12?style=flat-square" alt="实战教程"/>
+    <img src="https://img.shields.io/badge/风格-持续分享-2CA02C?style=flat-square" alt="持续分享"/>
+  </p>
+
+  <sub>👉 微信搜索「<strong>烈焰之雨空间</strong>」关注，干货不错过！</sub>
+
+</div>
+
+---
+
 ## 联系我
 
 <p>
   <a href="https://github.com/dddpeter"><img src="https://img.shields.io/badge/GitHub-@dddpeter-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/></a>
   <a href="mailto:dddpeter@126.com"><img src="https://img.shields.io/badge/Email-dddpeter@126.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://img.shields.io/badge/WeChat-dddpeter1314-2CA02C?style=flat&logo=wechat&logoColor=white" alt="WeChat"/>
+  <a href="#微信公众号"><img src="https://img.shields.io/badge/公众号-烈焰之雨空间-FF4E50?style=flat&logo=wechat&logoColor=white" alt="微信公众号：烈焰之雨空间"/></a>
+  <img src="https://img.shields.io/badge/微信-dddpeter1314-2CA02C?style=flat&logo=wechat&logoColor=white" alt="WeChat"/>
 </p>
 
 ---
