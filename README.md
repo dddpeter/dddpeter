@@ -24,18 +24,5 @@
 
 ---
 
-## 📊 活跃数据
-
-<p align="center">
-  <img alt="dddpeter's GitHub Stats" src="./images/github-stats.svg" />
-  <img alt="Top Languages" src="./images/top-langs.svg" />
-</p>
-
-<p align="center">
-  <img alt="GitHub Streak" src="./images/streak.svg" />
-</p>
-
----
-
 > *持续构建，持续学习。* 🚀
 
