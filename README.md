@@ -53,14 +53,14 @@
       <a href="https://github.com/dddpeter/picoclaw"><b>⚡ picoclaw</b></a><br/>
       <sub>Tiny, Fast, and Deployable anywhere —— 小而快的自动化工具</sub><br/><br/>
       <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
-      <img src="https://img.shields.io/github/last-commit/dddpeter/picoclaw?style=flat-square&label=最近提交" alt="最近提交"/>
+      <img src="https://img.shields.io/github/last-commit/dddpeter/picoclaw?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4" alt="最近提交"/>
       <img src="https://img.shields.io/github/stars/dddpeter/picoclaw?style=flat-square&label=Stars" alt="Stars"/>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/dddpeter/skill-audit"><b>🧹 skill-audit</b></a><br/>
       <sub>openclaw + hermes 的 Skill 审计与清理工具</sub><br/><br/>
       <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-      <img src="https://img.shields.io/github/last-commit/dddpeter/skill-audit?style=flat-square&label=最近提交" alt="最近提交"/>
+      <img src="https://img.shields.io/github/last-commit/dddpeter/skill-audit?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4" alt="最近提交"/>
       <img src="https://img.shields.io/github/stars/dddpeter/skill-audit?style=flat-square&label=Stars" alt="Stars"/>
     </td>
   </tr>
@@ -69,14 +69,14 @@
       <a href="https://github.com/dddpeter/email-mcp"><b>📮 email-mcp</b></a><br/>
       <sub>让 AI 轻松接管邮箱的 MCP 服务，支持 Claude 等客户端</sub><br/><br/>
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
-      <img src="https://img.shields.io/github/last-commit/dddpeter/email-mcp?style=flat-square&label=最近提交" alt="最近提交"/>
+      <img src="https://img.shields.io/github/last-commit/dddpeter/email-mcp?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4" alt="最近提交"/>
       <img src="https://img.shields.io/github/stars/dddpeter/email-mcp?style=flat-square&label=Stars" alt="Stars"/>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/dddpeter/gitleaks-scanner"><b>🔐 gitleaks-scanner</b></a><br/>
       <sub>Rust 实现的 Git 敏感信息（密钥/凭证）扫描工具</sub><br/><br/>
       <img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black" alt="Rust"/>
-      <img src="https://img.shields.io/github/last-commit/dddpeter/gitleaks-scanner?style=flat-square&label=最近提交" alt="最近提交"/>
+      <img src="https://img.shields.io/github/last-commit/dddpeter/gitleaks-scanner?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4" alt="最近提交"/>
       <img src="https://img.shields.io/github/stars/dddpeter/gitleaks-scanner?style=flat-square&label=Stars" alt="Stars"/>
     </td>
   </tr>
@@ -84,15 +84,15 @@
     <td width="50%" valign="top">
       <a href="https://github.com/dddpeter/hermes-lark-streaming"><b>💬 hermes-lark-streaming</b></a><br/>
       <sub>Hermes Agent 的飞书 / Lark Channel 插件</sub><br/><br/>
-      <img src="https://img.shields.io/badge/飞书 / Lark-3370FF?style=flat-square&logo=lark&logoColor=white" alt="Lark"/>
-      <img src="https://img.shields.io/github/last-commit/dddpeter/hermes-lark-streaming?style=flat-square&label=最近提交" alt="最近提交"/>
+      <img src="https://img.shields.io/badge/%E9%A3%9E%E4%B9%A6%20%2F%20Lark-3370FF?style=flat-square&logo=lark&logoColor=white" alt="Lark"/>
+      <img src="https://img.shields.io/github/last-commit/dddpeter/hermes-lark-streaming?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4" alt="最近提交"/>
       <img src="https://img.shields.io/github/stars/dddpeter/hermes-lark-streaming?style=flat-square&label=Stars" alt="Stars"/>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/dddpeter/rainweather-flutter"><b>🌦️ rainweather-flutter</b></a><br/>
       <sub>Flutter 跨平台天气应用</sub><br/><br/>
       <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart"/>
-      <img src="https://img.shields.io/github/last-commit/dddpeter/rainweather-flutter?style=flat-square&label=最近提交" alt="最近提交"/>
+      <img src="https://img.shields.io/github/last-commit/dddpeter/rainweather-flutter?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4" alt="最近提交"/>
       <img src="https://img.shields.io/github/stars/dddpeter/rainweather-flutter?style=flat-square&label=Stars" alt="Stars"/>
     </td>
   </tr>
