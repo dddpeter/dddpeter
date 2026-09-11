@@ -54,19 +54,6 @@
 
 ---
 
-## 📊 活跃数据（本地托管，避免第三方失效）
-
-<!-- 三张卡片放在一行，宽度统一 -->
-<p align="center">
-  <img alt="dddpeter's GitHub Stats" src="./images/github-stats.svg" width="32%" style="max-width:300px; margin: 4px;" />
-  <img alt="Top Languages" src="./images/top-langs.svg" width="32%" style="max-width:300px; margin: 4px;" />
-  <img alt="GitHub Streak" src="./images/streak.svg" width="32%" style="max-width:300px; margin: 4px;" />
-</p>
-
-<p align="center"><sub>注：图片为仓库托管的 SVG，占位或自动更新（如果启用 workflow）。如需我把这些 SVG 做成漂亮的并排卡片或添加阴影/圆角效果，我可以进一步美化。</sub></p>
-
----
-
 ## 联系我
 
 <p>
@@ -83,5 +70,5 @@
 
 
 <footer align="center">
-  <p><sub>此 README 已按模板美化并保留本地统计卡片（images/ 下的 SVG）。如需我把统计改为自动更新（GitHub Action）或把精选项目替换为带预览的 pin 卡，请告诉我。</sub></p>
+  <p><sub>此 README 已按模板美化，如需我把统计改为自动更新（GitHub Action）或把精选项目替换为带预览的 pin 卡，请告诉我。</sub></p>
 </footer>
