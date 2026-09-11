@@ -34,35 +34,14 @@
 
 ## 精选项目
 
-<a href="https://github.com/dddpeter/picoclaw"><b>⚡ picoclaw</b></a> — <sub>Tiny, Fast, and Deployable anywhere，小而快的自动化工具</sub><br/>
-<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
-<img src="https://img.shields.io/github/last-commit/dddpeter/picoclaw?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4" alt="最近提交"/>
-<img src="https://img.shields.io/github/stars/dddpeter/picoclaw?style=flat-square&label=Stars" alt="Stars"/>
-
-<a href="https://github.com/dddpeter/skill-audit"><b>🧹 skill-audit</b></a> — <sub>openclaw + hermes 的 Skill 审计与清理工具</sub><br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-<img src="https://img.shields.io/github/last-commit/dddpeter/skill-audit?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4" alt="最近提交"/>
-<img src="https://img.shields.io/github/stars/dddpeter/skill-audit?style=flat-square&label=Stars" alt="Stars"/>
-
-<a href="https://github.com/dddpeter/email-mcp"><b>📮 email-mcp</b></a> — <sub>让 AI 轻松接管邮箱的 MCP 服务，支持 Claude 等客户端</sub><br/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
-<img src="https://img.shields.io/github/last-commit/dddpeter/email-mcp?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4" alt="最近提交"/>
-<img src="https://img.shields.io/github/stars/dddpeter/email-mcp?style=flat-square&label=Stars" alt="Stars"/>
-
-<a href="https://github.com/dddpeter/gitleaks-scanner"><b>🔐 gitleaks-scanner</b></a> — <sub>Rust 实现的 Git 敏感信息（密钥/凭证）扫描工具</sub><br/>
-<img src="https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black" alt="Rust"/>
-<img src="https://img.shields.io/github/last-commit/dddpeter/gitleaks-scanner?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4" alt="最近提交"/>
-<img src="https://img.shields.io/github/stars/dddpeter/gitleaks-scanner?style=flat-square&label=Stars" alt="Stars"/>
-
-<a href="https://github.com/dddpeter/hermes-lark-streaming"><b>💬 hermes-lark-streaming</b></a> — <sub>Hermes Agent 的飞书 / Lark Channel 插件</sub><br/>
-<img src="https://img.shields.io/badge/%E9%A3%9E%E4%B9%A6%20%2F%20Lark-3370FF?style=flat-square&logo=lark&logoColor=white" alt="Lark"/>
-<img src="https://img.shields.io/github/last-commit/dddpeter/hermes-lark-streaming?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4" alt="最近提交"/>
-<img src="https://img.shields.io/github/stars/dddpeter/hermes-lark-streaming?style=flat-square&label=Stars" alt="Stars"/>
-
-<a href="https://github.com/dddpeter/rainweather-flutter"><b>🌦️ rainweather-flutter</b></a> — <sub>Flutter 跨平台天气应用</sub><br/>
-<img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart"/>
-<img src="https://img.shields.io/github/last-commit/dddpeter/rainweather-flutter?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4" alt="最近提交"/>
-<img src="https://img.shields.io/github/stars/dddpeter/rainweather-flutter?style=flat-square&label=Stars" alt="Stars"/>
+| 项目 | 简介 | 活跃度 |
+|------|------|--------|
+| [⚡ **picoclaw**](https://github.com/dddpeter/picoclaw) | 小而快、随处部署的自动化工具 | ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![最近提交](https://img.shields.io/github/last-commit/dddpeter/picoclaw?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4) |
+| [🧹 **skill-audit**](https://github.com/dddpeter/skill-audit) | openclaw + hermes 的 Skill 审计与清理工具 | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![最近提交](https://img.shields.io/github/last-commit/dddpeter/skill-audit?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4) |
+| [📮 **email-mcp**](https://github.com/dddpeter/email-mcp) | 让 AI 轻松接管邮箱的 MCP 服务，支持 Claude 等客户端 | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![最近提交](https://img.shields.io/github/last-commit/dddpeter/email-mcp?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4) |
+| [🔐 **gitleaks-scanner**](https://github.com/dddpeter/gitleaks-scanner) | Rust 实现的 Git 敏感信息（密钥/凭证）扫描工具 | ![Rust](https://img.shields.io/badge/Rust-DEA584?style=flat-square&logo=rust&logoColor=black) ![最近提交](https://img.shields.io/github/last-commit/dddpeter/gitleaks-scanner?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4) |
+| [💬 **hermes-lark-streaming**](https://github.com/dddpeter/hermes-lark-streaming) | Hermes Agent 的飞书 / Lark Channel 插件 | ![Lark](https://img.shields.io/badge/%E9%A3%9E%E4%B9%A6%20%2F%20Lark-3370FF?style=flat-square&logo=lark&logoColor=white) ![最近提交](https://img.shields.io/github/last-commit/dddpeter/hermes-lark-streaming?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4) |
+| [🌦️ **rainweather-flutter**](https://github.com/dddpeter/rainweather-flutter) | Flutter 跨平台天气应用 | ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![最近提交](https://img.shields.io/github/last-commit/dddpeter/rainweather-flutter?style=flat-square&label=%E6%9C%80%E8%BF%91%E6%8F%90%E4%BA%A4) |
 
 <sub>📦 按<b>最近推送时间</b>排序 · <a href="https://github.com/dddpeter?tab=repositories&sort=pushed">查看全部仓库</a></sub>
 
@@ -88,22 +67,21 @@
 
 ## 微信公众号
 
-<img src="images/wechat-account-avatar.jpg" width="130" alt="烈焰之雨空间 头像"/>
-
-### 🔥 烈焰之雨空间
-
-<i>烈焰般的热忱钻研技术，细雨般的分享陪伴成长。</i>
-
-📚 **实战教程** —— 从 0 到 1，代码可跑、拿来即用<br/>
-💡 **技术干货** —— DevOps / 后端 / 移动端 / AI 工程化<br/>
-🔧 **踩坑实录** —— 踩过的坑、填过的雷，帮你少走弯路<br/>
-🚀 **效率神器** —— 开发工具、开源项目与工作流
-
-<img src="https://img.shields.io/badge/内容-技术干货-FF4E50?style=flat-square" alt="技术干货"/>&nbsp;
-<img src="https://img.shields.io/badge/形式-实战教程-F39C12?style=flat-square" alt="实战教程"/>&nbsp;
-<img src="https://img.shields.io/badge/风格-持续分享-2CA02C?style=flat-square" alt="持续分享"/>
-
-<sub>👉 微信搜索「<b>烈焰之雨空间</b>」关注，干货不错过！</sub>
+<table>
+  <tr>
+    <td width="140"><img src="images/wechat-account-avatar.jpg" width="120" alt="烈焰之雨空间 头像"/></td>
+    <td valign="top">
+      <b>🔥 烈焰之雨空间</b> —— 专注技术干货与实战教程的公众号<br/>
+      <sub><i>烈焰般的热忱钻研技术，细雨般的分享陪伴成长。</i></sub><br/>
+      📚 <b>实战教程</b> —— 从 0 到 1，代码可跑、拿来即用<br/>
+      💡 <b>技术干货</b> —— DevOps / 后端 / 移动端 / AI 工程化<br/>
+      🔧 <b>踩坑实录</b> —— 踩过的坑、填过的雷，帮你少走弯路<br/>
+      🚀 <b>效率神器</b> —— 开发工具、开源项目与工作流<br/>
+      <img src="https://img.shields.io/badge/内容-技术干货-FF4E50?style=flat-square" alt="技术干货"/>&nbsp;<img src="https://img.shields.io/badge/形式-实战教程-F39C12?style=flat-square" alt="实战教程"/>&nbsp;<img src="https://img.shields.io/badge/风格-持续分享-2CA02C?style=flat-square" alt="持续分享"/><br/>
+      👉 微信搜索「<b>烈焰之雨空间</b>」关注，干货不错过！
+    </td>
+  </tr>
+</table>
 
 ---
 
