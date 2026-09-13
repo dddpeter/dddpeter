@@ -1,6 +1,4 @@
-# 🌟 我是 dddpeter（烈焰之雨）
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2000&pause=500&color=2C9CDF&center=false&vCenter=true&width=700&lines=DevOps+%7C+macOS+Tools+%7C+Android+%7C+全栈;构建可靠的工程与优雅的工具;开源为源，分享促成长)](https://git.io/typing-svg)
+<img src="images/banner.svg" width="100%" alt="dddpeter（烈焰之雨）· Building tools that turn ideas into engineering solutions · 公众号：烈焰之雨空间"/>
 
 <a href="#关于我"><img src="https://img.shields.io/badge/关于我-简介-FF5F6D?style=for-the-badge" alt="关于我"/></a>&nbsp;
 <a href="#技能与工具"><img src="https://img.shields.io/badge/技能-工具-2C9CDF?style=for-the-badge" alt="技能"/></a>&nbsp;

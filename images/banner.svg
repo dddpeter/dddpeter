@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="712" viewBox="0 0 2000 712" role="img" aria-label="dddpeter 烈焰之雨 · Building tools that turn ideas into engineering solutions">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0.32">
+      <stop offset="0" stop-color="#F09A3F"/>
+      <stop offset="0.3" stop-color="#DE844A"/>
+      <stop offset="0.48" stop-color="#B25C4C"/>
+      <stop offset="0.64" stop-color="#77616E"/>
+      <stop offset="0.78" stop-color="#4C7292"/>
+      <stop offset="1" stop-color="#2F5D80"/>
+    </linearGradient>
+    <radialGradient id="flare" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFE3B0" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#FFC97E" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#FFC97E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="2000" height="712" fill="url(#bg)"/>
+
+  <!-- 顶部右侧暗角 -->
+  <polygon points="1700,0 2000,0 2000,160" fill="#274F6E" opacity="0.45"/>
+
+  <!-- 山脉剪影 -->
+  <path d="M1300,712 L1480,600 L1600,668 L1720,588 L1830,660 L1930,612 L2000,652 L2000,712 Z" fill="#2B5470" opacity="0.55"/>
+  <path d="M1550,712 L1700,640 L1790,690 L1880,645 L2000,700 L2000,712 Z" fill="#24485F" opacity="0.75"/>
+
+  <!-- 轨道弧线 -->
+  <path d="M950,540 Q1350,470 1990,560" stroke="#CDE3EA" stroke-width="1.5" fill="none" opacity="0.3"/>
+  <path d="M900,585 Q1400,520 2000,640" stroke="#CDE3EA" stroke-width="1.5" fill="none" opacity="0.2"/>
+  <path d="M1150,430 Q1500,380 2000,430" stroke="#CDE3EA" stroke-width="1.5" fill="none" opacity="0.25"/>
+
+  <!-- 流星轨迹 -->
+  <g stroke="#FFFFFF" fill="none" stroke-linecap="round">
+    <path d="M240,470 L620,415" stroke-width="1.5" opacity="0.32"/>
+    <path d="M300,505 L640,455" stroke-width="1.2" opacity="0.22"/>
+    <path d="M120,540 L560,488" stroke-width="1.2" opacity="0.28"/>
+    <path d="M200,575 L590,522" stroke-width="1" opacity="0.18"/>
+    <path d="M880,300 L990,352" stroke-width="1.5" opacity="0.35"/>
+    <path d="M930,282 L1000,345" stroke-width="1" opacity="0.2"/>
+  </g>
+
+  <!-- 星座连线 -->
+  <g stroke="#9FB8C8" stroke-width="1" opacity="0.5">
+    <line x1="1018" y1="58" x2="1108" y2="32"/>
+    <line x1="1018" y1="58" x2="872" y2="105"/>
+    <line x1="872" y1="105" x2="838" y2="66"/>
+    <line x1="1018" y1="58" x2="1042" y2="118"/>
+    <line x1="1042" y1="118" x2="1148" y2="142"/>
+    <line x1="1108" y1="32" x2="1188" y2="96"/>
+    <line x1="1188" y1="96" x2="1148" y2="142"/>
+  </g>
+
+  <!-- 星点 -->
+  <g fill="#FFFFFF">
+    <circle cx="838" cy="66" r="2.5" fill="#7FD4D4" opacity="0.9"/>
+    <circle cx="872" cy="105" r="2" opacity="0.8"/>
+    <circle cx="1018" cy="58" r="3" fill="#7FD4D4" opacity="0.95"/>
+    <circle cx="1108" cy="32" r="2.5" opacity="0.85"/>
+    <circle cx="1188" cy="96" r="2.5" fill="#7FD4D4" opacity="0.9"/>
+    <circle cx="1148" cy="142" r="2" opacity="0.8"/>
+    <circle cx="1042" cy="118" r="2.5" opacity="0.85"/>
+    <circle cx="628" cy="178" r="2" fill="#FFE9C9" opacity="0.7"/>
+    <circle cx="700" cy="120" r="1.5" opacity="0.5"/>
+    <circle cx="452" cy="338" r="2" opacity="0.4"/>
+    <circle cx="392" cy="518" r="2" fill="#FFD9A0" opacity="0.6"/>
+    <circle cx="608" cy="558" r="1.8" opacity="0.5"/>
+    <circle cx="702" cy="432" r="1.5" fill="#7FD4D4" opacity="0.6"/>
+    <circle cx="1240" cy="420" r="2" opacity="0.5"/>
+    <circle cx="1312" cy="468" r="1.6" fill="#7FD4D4" opacity="0.6"/>
+    <circle cx="1258" cy="196" r="2" opacity="0.55"/>
+    <circle cx="1352" cy="262" r="1.6" opacity="0.4"/>
+    <circle cx="880" cy="258" r="1.5" opacity="0.45"/>
+    <circle cx="545" cy="470" r="1.5" fill="#FFE9C9" opacity="0.5"/>
+    <circle cx="1508" cy="196" r="2" fill="#BFE3E3" opacity="0.5"/>
+    <circle cx="1618" cy="318" r="1.8" opacity="0.45"/>
+    <circle cx="1758" cy="268" r="2" fill="#BFE3E3" opacity="0.4"/>
+  </g>
+
+  <!-- 中央光球 -->
+  <ellipse cx="1020" cy="368" rx="78" ry="18" fill="url(#flare)"/>
+  <circle cx="1020" cy="368" r="34" fill="#FFC97E" opacity="0.3"/>
+  <circle cx="1020" cy="368" r="20" fill="#FFE3B0" opacity="0.5"/>
+  <circle cx="1020" cy="368" r="11" fill="#FFFFFF"/>
+
+  <!-- SINCE 2012 装饰圆环 -->
+  <circle cx="150" cy="600" r="42" stroke="#F5C06A" stroke-width="1.2" fill="none" opacity="0.5"/>
+
+  <!-- 左侧主文案 -->
+  <text x="118" y="248" font-family="'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="118" font-weight="800" fill="#FFFFFF">dddpeter</text>
+  <text x="122" y="318" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei',sans-serif" font-size="40" font-weight="600" fill="#F5C06A" letter-spacing="12">烈焰之雨</text>
+  <text x="122" y="420" font-family="'Segoe UI','PingFang SC',Helvetica,Arial,sans-serif" font-size="33" font-style="italic" font-weight="500" fill="#FFFFFF">Building tools that turn ideas into engineering solutions.</text>
+  <text x="122" y="577" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" font-weight="700" fill="#F5C06A" letter-spacing="6">SINCE 2012</text>
+  <text x="122" y="630" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="42" font-weight="700" fill="#FFFFFF">14 年 · 6 个精选项目</text>
+
+  <!-- 右侧 CURRENT FOCUS -->
+  <text x="1340" y="222" font-family="'Segoe UI',Helvetica,Arial,sans-serif" font-size="30" font-weight="700" fill="#5FD4D4" letter-spacing="8">CURRENT FOCUS</text>
+  <text x="1340" y="282" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="32" fill="#FFFFFF">DevOps 自动化 · macOS 效率 · 跨平台</text>
+  <text x="1340" y="330" font-family="'Segoe UI','PingFang SC',sans-serif" font-size="32" fill="#FFFFFF">Rust · Flutter · WebAssembly</text>
+
+  <!-- 中部公众号 -->
+  <text x="932" y="575" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="24" font-weight="600" fill="#5FD4D4" letter-spacing="6">公众号</text>
+  <text x="932" y="622" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="40" font-weight="600" fill="#FFFFFF">烈焰之雨空间</text>
+
+  <!-- 右下 slogan -->
+  <text x="1930" y="690" text-anchor="end" font-family="'PingFang SC','Microsoft YaHei',sans-serif" font-size="22" font-weight="500" fill="#23405A">烈焰般热忱 · 细雨般分享</text>
+</svg>
