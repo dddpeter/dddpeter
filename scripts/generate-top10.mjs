@@ -106,16 +106,16 @@ async function collect() {
 // ---- SVG rendering ----
 const THEMES = {
   light: {
-    bgFrom: '#ffffff', bgTo: '#f8fafc', border: '#e2e8f0', title: '#0f172a', text: '#1e293b', secondary: '#64748b',
-    grid: '#eef2f7', axis: '#cbd5e1', divider: '#f1f5f9', accent: '#f59e0b', commitIcon: '#7c3aed',
-    medals: ['#d97706', '#94a3b8', '#b45309'],
-    palette: ['#e11d48', '#2563eb', '#059669', '#d97706', '#7c3aed', '#0891b2', '#db2777', '#ea580c', '#4f46e5', '#64748b'],
+    bgFrom: '#212121', bgTo: '#1d1d1d', border: '#3d3d3d', title: '#ff8f00', text: '#cdcdcd', secondary: '#9e9e9e',
+    grid: '#2a2a2a', axis: '#484848', divider: '#2e2e2e', accent: '#ff8f00', commitIcon: '#b87aff',
+    medals: ['#ff8f00', '#b87aff', '#42aa00'],
+    palette: ['#ff8f00', '#b87aff', '#42aa00', '#d97706', '#f35248', '#2563eb', '#e3d4f6', '#16a34a', '#ffb74d', '#9e7bff'],
   },
   dark: {
-    bgFrom: '#161b22', bgTo: '#0d1117', border: '#30363d', title: '#e6edf3', text: '#c9d1d9', secondary: '#8b949e',
-    grid: '#1c2129', axis: '#3d444d', divider: '#21262d', accent: '#fbbf24', commitIcon: '#a78bfa',
-    medals: ['#fbbf24', '#9aa7b4', '#d08a4e'],
-    palette: ['#fb7185', '#60a5fa', '#34d399', '#fbbf24', '#a78bfa', '#22d3ee', '#f472b6', '#fb923c', '#818cf8', '#94a3b8'],
+    bgFrom: '#1d1d1d', bgTo: '#191919', border: '#383838', title: '#ffa040', text: '#cdcdcd', secondary: '#8b8b8b',
+    grid: '#262626', axis: '#414141', divider: '#2a2a2a', accent: '#ffa040', commitIcon: '#b87aff',
+    medals: ['#ffa040', '#c79bff', '#4fc122'],
+    palette: ['#ffa040', '#c79bff', '#4fc122', '#f59e0b', '#ff6b60', '#3b82f6', '#d8c7f5', '#22c55e', '#ffcc80', '#a78bfa'],
   },
 };
 const FONT = '-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Noto Sans CJK SC&quot;,&quot;PingFang SC&quot;,&quot;Microsoft YaHei&quot;,Helvetica,Arial,sans-serif';
