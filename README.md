@@ -47,7 +47,7 @@
 
 ## GitHub 统计
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dddpeter&theme=monokai" alt="Profile Details" width="100%"/>
+<img src="profile-summary-card-output/monokai/0-profile-details.svg" alt="Profile Details" width="100%"/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stars-top10-dark.svg">

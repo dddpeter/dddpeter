@@ -1,0 +1,29 @@
+name: Update Profile Summary Cards
+
+on:
+  schedule:
+    # 每天北京时间 01:37 左右（GitHub cron 为 UTC），与 top10 图表错开
+    - cron: '37 17 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # 用静态 SVG 替代 github-profile-summary-cards.vercel.app 公共实例，彻底避开限流
+      # 生成结果提交到 profile-summary-card-output/monokai/
+      - name: Generate summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          UTC_OFFSET: 8          # 北京时间（影响 productive-time 卡片）
+          THEME: "monokai"       # 只生成 monokai 主题，与 README 现有风格一致
+          # AUTO_PUSH 默认 true：Action 自动 commit 并 push 生成的 SVG
