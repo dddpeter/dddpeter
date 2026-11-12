@@ -22,9 +22,71 @@
     </radialGradient>
   </defs>
 
+  <style>
+    /* ── 夜色动效。文字、配色、构图与原静态稿一致，只让它活起来 ──
+       仅用标准 CSS 动画，不用 CSS 变量（避免被 GitHub 清洗）。 */
+    @keyframes driftA { 0%,100% { transform: translate(0,0) scale(1); } 50% { transform: translate(30px,-18px) scale(1.07); } }
+    @keyframes driftB { 0%,100% { transform: translate(0,0) scale(1); } 50% { transform: translate(-34px,16px) scale(1.06); } }
+
+    .haloA { animation: driftA 22s ease-in-out infinite; }
+    .haloB { animation: driftB 26s ease-in-out infinite; }
+
+    /* 星点闪烁：6 档亮度/相位，避免同频 */
+    .t1 { animation: t1 3.2s ease-in-out infinite; }
+    .t2 { animation: t2 4.1s ease-in-out infinite; animation-delay: -1.3s; }
+    .t3 { animation: t3 3.7s ease-in-out infinite; animation-delay: -2.6s; }
+    .t4 { animation: t4 5.0s ease-in-out infinite; animation-delay: -0.8s; }
+    .t5 { animation: t5 4.4s ease-in-out infinite; animation-delay: -3.1s; }
+    .t6 { animation: t6 5.8s ease-in-out infinite; animation-delay: -2.0s; }
+    @keyframes t1 { 0%,100% { opacity: 0.95; } 50% { opacity: 0.22; } }
+    @keyframes t2 { 0%,100% { opacity: 0.8; }  50% { opacity: 0.18; } }
+    @keyframes t3 { 0%,100% { opacity: 1; }    50% { opacity: 0.28; } }
+    @keyframes t4 { 0%,100% { opacity: 0.6; }  50% { opacity: 0.14; } }
+    @keyframes t5 { 0%,100% { opacity: 0.45; } 50% { opacity: 0.1; } }
+    @keyframes t6 { 0%,100% { opacity: 0.35; } 50% { opacity: 0.08; } }
+
+    /* 中央光球呼吸 */
+    .c1 { transform-origin: 1020px 368px; animation: c1 5.2s ease-in-out infinite; }
+    .c2 { transform-origin: 1020px 368px; animation: c2 4.5s ease-in-out infinite; }
+    .c3 { transform-origin: 1020px 368px; animation: c3 4.5s ease-in-out infinite; animation-delay: -0.6s; }
+    .c4 { transform-origin: 1020px 368px; animation: c4 4.5s ease-in-out infinite; animation-delay: -1.1s; }
+    @keyframes c1 { 0%,100% { opacity: 1;    transform: scale(1); }    50% { opacity: 1;    transform: scale(1.08); } }
+    @keyframes c2 { 0%,100% { opacity: 0.3;  transform: scale(1); }    50% { opacity: 0.42; transform: scale(1.16); } }
+    @keyframes c3 { 0%,100% { opacity: 0.5;  transform: scale(1); }    50% { opacity: 0.68; transform: scale(1.12); } }
+    @keyframes c4 { 0%,100% { opacity: 1;    transform: scale(1); }    50% { opacity: 1;    transform: scale(1.06); } }
+
+    /* 轨道能量流动 */
+    .o1 { stroke-dasharray: 26 74; animation: flow 11s linear infinite; }
+    .o2 { stroke-dasharray: 26 74; animation: flow 9s linear infinite; }
+    .o3 { stroke-dasharray: 26 74; animation: flow 13s linear infinite; }
+    @keyframes flow { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -100; } }
+
+    /* 流星：周期划过 */
+    .m1 { stroke-linecap: round; animation: shoot 6.5s linear infinite; animation-delay: -1.1s; }
+    .m2 { stroke-linecap: round; animation: shoot 8.0s linear infinite; animation-delay: -3.4s; }
+    .m3 { stroke-linecap: round; animation: shoot 9.0s linear infinite; animation-delay: -5.2s; }
+    .m4 { stroke-linecap: round; animation: shoot 7.5s linear infinite; animation-delay: -0.6s; }
+    .m5 { stroke-linecap: round; animation: shoot 5.5s linear infinite; animation-delay: -2.3s; }
+    .m6 { stroke-linecap: round; animation: shoot 6.8s linear infinite; animation-delay: -4.5s; }
+    @keyframes shoot {
+      0%   { stroke-dashoffset: 0;   opacity: 0; }
+      6%   { opacity: 0.95; }
+      22%  { stroke-dashoffset: -100; opacity: 0.95; }
+      27%  { opacity: 0; }
+      100% { stroke-dashoffset: -100; opacity: 0; }
+    }
+
+    /* SINCE 2012 圆环流动 */
+    .ring { stroke-dasharray: 20 80; animation: flow 7s linear infinite; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .haloA,.haloB,.t1,.t2,.t3,.t4,.t5,.t6,.c1,.c2,.c3,.c4,.o1,.o2,.o3,.m1,.m2,.m3,.m4,.m5,.m6,.ring { animation: none; }
+    }
+  </style>
+
   <rect width="2000" height="712" fill="url(#bg)"/>
-  <ellipse cx="240" cy="120" rx="700" ry="500" fill="url(#glowL)"/>
-  <ellipse cx="1750" cy="200" rx="650" ry="480" fill="url(#mist)"/>
+  <ellipse class="haloA" cx="240" cy="120" rx="700" ry="500" fill="url(#glowL)"/>
+  <ellipse class="haloB" cx="1750" cy="200" rx="650" ry="480" fill="url(#mist)"/>
 
   <!-- 顶部右侧暗角 -->
   <polygon points="1700,0 2000,0 2000,160" fill="#7A00C2" opacity="0.22"/>
@@ -33,19 +95,25 @@
   <path d="M1300,712 L1480,600 L1600,668 L1720,588 L1830,660 L1930,612 L2000,652 L2000,712 Z" fill="#171220" opacity="0.85"/>
   <path d="M1550,712 L1700,640 L1790,690 L1880,645 L2000,700 L2000,712 Z" fill="#120D1A" opacity="0.9"/>
 
-  <!-- 轨道弧线 -->
-  <path d="M950,540 Q1350,470 1990,560" stroke="#FF8F00" stroke-width="1.5" fill="none" opacity="0.22"/>
-  <path d="M900,585 Q1400,520 2000,640" stroke="#B87AFF" stroke-width="1.5" fill="none" opacity="0.18"/>
-  <path d="M1150,430 Q1500,380 2000,430" stroke="#CDCDCD" stroke-width="1.5" fill="none" opacity="0.14"/>
+  <!-- 轨道弧线（能量流动） -->
+  <path class="o1" d="M950,540 Q1350,470 1990,560" stroke="#FF8F00" stroke-width="1.5" fill="none" opacity="0.22" pathLength="100"/>
+  <path class="o2" d="M900,585 Q1400,520 2000,640" stroke="#B87AFF" stroke-width="1.5" fill="none" opacity="0.18" pathLength="100"/>
+  <path class="o3" d="M1150,430 Q1500,380 2000,430" stroke="#CDCDCD" stroke-width="1.5" fill="none" opacity="0.14" pathLength="100"/>
 
-  <!-- 流星轨迹 -->
+  <!-- 流星轨迹：静态尾迹 + 周期划过的流星 -->
   <g fill="none" stroke-linecap="round">
     <path d="M240,470 L620,415" stroke="#FF8F00" stroke-width="1.5" opacity="0.4"/>
+    <path class="m1" pathLength="100" d="M240,470 L620,415" stroke="#FFB74D" stroke-width="2.4" fill="none"/>
     <path d="M300,505 L640,455" stroke="#FF8F00" stroke-width="1.2" opacity="0.25"/>
+    <path class="m2" pathLength="100" d="M300,505 L640,455" stroke="#FFC46B" stroke-width="1.8" fill="none"/>
     <path d="M120,540 L560,488" stroke="#CDCDCD" stroke-width="1.2" opacity="0.2"/>
+    <path class="m3" pathLength="100" d="M120,540 L560,488" stroke="#FFFFFF" stroke-width="1.8" fill="none"/>
     <path d="M200,575 L590,522" stroke="#B87AFF" stroke-width="1" opacity="0.25"/>
+    <path class="m4" pathLength="100" d="M200,575 L590,522" stroke="#D9B8FF" stroke-width="1.8" fill="none"/>
     <path d="M880,300 L990,352" stroke="#FFB74D" stroke-width="1.5" opacity="0.45"/>
+    <path class="m5" pathLength="100" d="M880,300 L990,352" stroke="#FFE3B0" stroke-width="2.4" fill="none"/>
     <path d="M930,282 L1000,345" stroke="#FFB74D" stroke-width="1" opacity="0.25"/>
+    <path class="m6" pathLength="100" d="M930,282 L1000,345" stroke="#FFE3B0" stroke-width="1.8" fill="none"/>
   </g>
 
   <!-- 星座连线 -->
@@ -59,40 +127,40 @@
     <line x1="1188" y1="96" x2="1148" y2="142"/>
   </g>
 
-  <!-- 星点 -->
+  <!-- 星点（闪烁） -->
   <g fill="#FFFFFF">
-    <circle cx="838" cy="66" r="2.5" fill="#FF8F00" opacity="0.95"/>
-    <circle cx="872" cy="105" r="2" opacity="0.75"/>
-    <circle cx="1018" cy="58" r="3" fill="#B87AFF" opacity="1"/>
-    <circle cx="1108" cy="32" r="2.5" opacity="0.8"/>
-    <circle cx="1188" cy="96" r="2.5" fill="#FF8F00" opacity="0.9"/>
-    <circle cx="1148" cy="142" r="2" opacity="0.75"/>
-    <circle cx="1042" cy="118" r="2.5" fill="#B87AFF" opacity="0.85"/>
-    <circle cx="628" cy="178" r="2" fill="#FFB74D" opacity="0.7"/>
-    <circle cx="700" cy="120" r="1.5" opacity="0.45"/>
-    <circle cx="452" cy="338" r="2" opacity="0.35"/>
-    <circle cx="392" cy="518" r="2" fill="#FF8F00" opacity="0.6"/>
-    <circle cx="608" cy="558" r="1.8" opacity="0.45"/>
-    <circle cx="702" cy="432" r="1.5" fill="#B87AFF" opacity="0.6"/>
-    <circle cx="1240" cy="420" r="2" opacity="0.45"/>
-    <circle cx="1312" cy="468" r="1.6" fill="#FF8F00" opacity="0.6"/>
-    <circle cx="1258" cy="196" r="2" opacity="0.5"/>
-    <circle cx="1352" cy="262" r="1.6" opacity="0.35"/>
-    <circle cx="880" cy="258" r="1.5" opacity="0.4"/>
-    <circle cx="545" cy="470" r="1.5" fill="#FFB74D" opacity="0.5"/>
-    <circle cx="1508" cy="196" r="2" fill="#B87AFF" opacity="0.5"/>
-    <circle cx="1618" cy="318" r="1.8" opacity="0.4"/>
-    <circle cx="1758" cy="268" r="2" fill="#B87AFF" opacity="0.4"/>
+    <circle class="t1" cx="838" cy="66" r="2.5" fill="#FF8F00"/>
+    <circle class="t2" cx="872" cy="105" r="2"/>
+    <circle class="t3" cx="1018" cy="58" r="3" fill="#B87AFF"/>
+    <circle class="t4" cx="1108" cy="32" r="2.5"/>
+    <circle class="t1" cx="1188" cy="96" r="2.5" fill="#FF8F00"/>
+    <circle class="t2" cx="1148" cy="142" r="2"/>
+    <circle class="t3" cx="1042" cy="118" r="2.5" fill="#B87AFF"/>
+    <circle class="t4" cx="628" cy="178" r="2" fill="#FFB74D"/>
+    <circle class="t5" cx="700" cy="120" r="1.5"/>
+    <circle class="t6" cx="452" cy="338" r="2"/>
+    <circle class="t4" cx="392" cy="518" r="2" fill="#FF8F00"/>
+    <circle class="t5" cx="608" cy="558" r="1.8"/>
+    <circle class="t4" cx="702" cy="432" r="1.5" fill="#B87AFF"/>
+    <circle class="t5" cx="1240" cy="420" r="2"/>
+    <circle class="t4" cx="1312" cy="468" r="1.6" fill="#FF8F00"/>
+    <circle class="t6" cx="1258" cy="196" r="2"/>
+    <circle class="t5" cx="1352" cy="262" r="1.6"/>
+    <circle class="t5" cx="880" cy="258" r="1.5"/>
+    <circle class="t4" cx="545" cy="470" r="1.5" fill="#FFB74D"/>
+    <circle class="t5" cx="1508" cy="196" r="2" fill="#B87AFF"/>
+    <circle class="t6" cx="1618" cy="318" r="1.8"/>
+    <circle class="t5" cx="1758" cy="268" r="2" fill="#B87AFF"/>
   </g>
 
-  <!-- 中央光球（南瓜月） -->
-  <ellipse cx="1020" cy="368" rx="80" ry="18" fill="url(#moon)"/>
-  <circle cx="1020" cy="368" r="34" fill="#FF8F00" opacity="0.3"/>
-  <circle cx="1020" cy="368" r="20" fill="#FFB74D" opacity="0.5"/>
-  <circle cx="1020" cy="368" r="11" fill="#FFE3B0"/>
+  <!-- 中央光球（南瓜月）：呼吸脉动 -->
+  <ellipse class="c1" cx="1020" cy="368" rx="80" ry="18" fill="url(#moon)"/>
+  <circle class="c2" cx="1020" cy="368" r="34" fill="#FF8F00"/>
+  <circle class="c3" cx="1020" cy="368" r="20" fill="#FFB74D"/>
+  <circle class="c4" cx="1020" cy="368" r="11" fill="#FFE3B0"/>
 
-  <!-- SINCE 2012 装饰圆环 -->
-  <circle cx="150" cy="600" r="42" stroke="#FF8F00" stroke-width="1.2" fill="none" opacity="0.55"/>
+  <!-- SINCE 2012 装饰圆环（流动描边） -->
+  <circle class="ring" cx="150" cy="600" r="42" stroke="#FF8F00" stroke-width="1.2" fill="none" opacity="0.55" pathLength="100"/>
 
   <!-- 左侧主文案 -->
   <text x="118" y="248" font-family="'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="118" font-weight="800" fill="#F5F5F5">dddpeter</text>
